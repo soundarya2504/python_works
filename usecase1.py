@@ -1,3 +1,15 @@
+usecase1: Check room availability
+    - If available:
+        - If guest is VIP
+            → Offer complimentary upgrade
+        - Else if member 5+ years
+            → Offer discount
+        - Else
+            → Standard price
+    - Else:
+        → Show: "No rooms available"
+
+
 Room_available=input("Is the room available (yes/No)")
 if Room_available == "yes":
     guest=input("Is the guest is vip (yes/no)")
