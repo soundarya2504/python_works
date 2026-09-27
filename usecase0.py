@@ -3,7 +3,6 @@ Use Case 0: Banking Eligibility Check
 Write a program that asks the user for:
 Age
 Monthly income
-
 Conditions:
 If age < 18: print "Not eligible for a bank account."
 If age >= 18 and income < 15000: print "Eligible for basic savings account."
